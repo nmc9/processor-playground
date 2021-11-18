@@ -57,7 +57,7 @@ In the `storage/app/config/` folder there are example configuration files. These
 You can copy these files and create new ones in this folder in order to execute test payments
 Create as many files as you would like in this folder and keep track of the name.
 
-go to <url>/<name-of-file> to view the output
+go to `<url>/<name-of-file>` to view the output
 #### Example
  `127.0.0.1/xfd ` will use the xfd.json file to send a payment
  `127.0.0.1/custom-ten-dollars` will use the custom-ten-dollars.json file credentials
