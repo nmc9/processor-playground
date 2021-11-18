@@ -1,0 +1,22 @@
+{
+	"gateway"				: "Nuvei",
+	"config"				: {
+		"terminalid"		: "terminalid",
+		"secret"			: "secret",
+		"currency"			: "USD",
+		"testMode" 			: true
+	},
+	"transaction"			: {
+		"description"   	: "Payment",
+		"amount"     		: "12.00",
+		"clientIp" 			: "127.0.0.1",
+		"card"   			: {
+			"name"			: "John Doe",
+			"number"		: "4111111111111111",
+			"expiryMonth"	: "12",
+			"expiryYear"	: "22",
+			"cvv"			: "411",
+			"postcode"		: "17702"
+		}
+	}
+}

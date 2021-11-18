@@ -1,0 +1,23 @@
+{
+	"gateway"					: "FirstData_Payeezy",
+	"config"					: {
+		"hmac"   				: "hmac",
+		"keyId"     			: "keyId",
+		"gatewayId" 			: "gatewayId",
+		"password"   			: "password",
+		"dba_name"   			: "dba_name",
+		"testMode"  			: true
+	},
+	"transaction"				: {
+		"description"   		: "Payment",
+		"amount"     			: "12.00",
+		"clientIp" 				: "127.0.0.1",
+		"ach"   				: {
+			"billingFirstName"	: "John",
+			"billingLastName"	: "Doe",
+			"routingNumber"		: "123456780",
+			"accountNumber"		: "1234567890",
+			"checkNumber"		: "101"
+		}
+	}
+}

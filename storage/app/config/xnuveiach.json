@@ -1,0 +1,23 @@
+{
+	"gateway"					: "Nuvei",
+	"config"					: {
+		"terminalid"			: "terminalid",
+		"secret"				: "secret",
+		"currency"				: "USD",
+		"testMode" 				: true
+	},
+	"transaction"				: {
+		"description"   		: "Payment",
+		"amount"     			: "12.00",
+		"clientIp" 				: "127.0.0.1",
+		"ach"   				: {
+			"checkType"			: "checking",
+			"billingFirstName"	: "John",
+			"billingLastName"	: "Doe",
+			"routingNumber"		: "123456780",
+			"accountNumber"		: "1234567890",
+			"checkNumber"		: "101",
+			"postcode"			: "17702"
+		}
+	}
+}
