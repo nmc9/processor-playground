@@ -1,4 +1,3 @@
-
 # Processor Playground
 
 A quick app that allowsyou to easily test payments to processor sandboxes
@@ -15,7 +14,7 @@ To deploy this project run
 
 One important thing you may need to do is install a cacert.pem file and attach it to your php.ini file
 
-[Instructions](https://stackoverflow.com/questions/48971125/ssl-certificate-on-laravel-development/48974427#48974427)
+[Instruction to fix curl60](https://stackoverflow.com/questions/48971125/ssl-certificate-on-laravel-development/48974427#48974427)
 
 Download the linked cacert.pem file
 Use a full path reference to it in your php.ini file
@@ -26,6 +25,8 @@ Use a full path reference to it in your php.ini file
 curl.cainfo = "C:\tools\cacert.pem"
 ```
 You may need to restart the server
+
+
 ## Installation
 
 In the `storage/app/config/` folder there are example configuration files. These files are json and look like this
@@ -54,12 +55,16 @@ In the `storage/app/config/` folder there are example configuration files. These
     }
 
 ## How to use
+
 You can copy these files and create new ones in this folder in order to execute test payments
+
 Create as many files as you would like in this folder and keep track of the name.
 
 go to `<url>/<name-of-file>` to view the output
 #### Example
+
  `127.0.0.1/xfd ` will use the xfd.json file to send a payment
+
  `127.0.0.1/custom-ten-dollars` will use the custom-ten-dollars.json file credentials
 
 The output will have a Laravel dump of the Request Data and the response object that is returned
