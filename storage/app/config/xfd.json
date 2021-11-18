@@ -19,5 +19,16 @@
 			"expiryYear"	: "22",
 			"cvv"			: "411"
 		}
+	},
+	"links": {
+		"docs": "https://support.payeezy.com/hc/en-us",
+		"api": "https://support.payeezy.com/hc/en-us/articles/206601408-First-Data-Payeezy-Gateway-Web-Service-API-Reference-Guide",
+		"demo-signup": "https://provisioning.demo.globalgatewaye4.firstdata.com/signup",
+		"live-login": "https://globalgatewaye4.firstdata.com/login",
+		"demo-login": "https://demo.globalgatewaye4.firstdata.com/login",
+		"pci": "https://www.cloversecurity.com/safemaker/login/portal",
+		"bank-response-codes": "https://support.payeezy.com/hc/en-us/articles/203730509-First-Data-Global-Gateway-e4-Bank-Response-Codes",
+		"force-failure": "https://support.payeezy.com/hc/en-us/articles/204504175-How-to-generate-unsuccessful-transactions-during-testing-",
+		"trans-codes": "https://support.payeezy.com/hc/en-us/articles/203730499-eCommerce-Response-Codes-ETG-e4-Transaction-Gateway-Codes-"
 	}
 }

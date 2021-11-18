@@ -19,5 +19,14 @@
 			"checkNumber"		: "101",
 			"postcode"			: "17702"
 		}
+	},
+	"links": {
+		"demo-login": "https://testpayments.nuvei.com/merchant/selfcare/controller/selfcareindex",
+		"live-login": "https://payments.nuvei.com/merchant/admin/controller/admin",
+		"docs": "https://helpdesk.nuvei.com/doku.php?id=developer:api_specification",
+		"docs-payment": "https://helpdesk.nuvei.com/doku.php?id=developer:sample_codes:php_xml_payments",
+		"merchant-portal": "https://admin.payfacconnect.com/diversifiedtechnology/submerchants",
+		"ach-portal-I-THINK": "https://smartpay.profitstars.com/sts/account",
+		"new-merchant-portal": "https://diversifiedtechnology.merchantdashboard.payfacconnect.com/activity"
 	}
 }
